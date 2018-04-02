@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/coin_collect.wav-58dcaf7e4bf37fa0a4ac755d90ac9ca8.sample"
+
+[deps]
+
+source_file="res://sfx/coin_collect.wav"
+source_md5="69e9c36554157defe751909316baa25a"
+
+dest_files=[ "res://.import/coin_collect.wav-58dcaf7e4bf37fa0a4ac755d90ac9ca8.sample" ]
+dest_md5="5193a40507559f854872ee66d3af60da"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=1]
+
+[node name="TileMap" type="TileMap"]
+
+position = Vector2( -180.93, 20.4057 )
+mode = 0
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 64, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 196611, 0, 196608, 196612, 0, 196609, 196613, 0, 196609, 196614, 0, 196609, 196615, 0, 196610, 262173, 0, 1, 262174, 0, 2, 327689, 0, 1, 327690, 0, 9, 327691, 0, 196610, 327694, 0, 196608, 327695, 0, 196609, 327696, 0, 196609, 327697, 0, 196609, 327698, 0, 196609, 327699, 0, 196609, 327700, 0, 196609, 327701, 0, 196609, 327702, 0, 196609, 327703, 0, 196610, 327708, 0, 1, 327709, 0, 65540, 327710, 0, 131074, 393219, 0, 196608, 393220, 0, 196609, 393221, 0, 196609, 393222, 0, 196609, 393223, 0, 196609, 393224, 0, 196609, 393225, 0, 65544, 393226, 0, 65538, 393242, 0, 196608, 393243, 0, 196609, 393244, 0, 65544, 393245, 0, 131072, 393246, 0, 65547, 393247, 0, 196609, 393248, 0, 196609, 393249, 0, 196609, 393250, 0, 196609, 393251, 0, 196610 )
+_sections_unfolded = [ "Cell", "Collision" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+

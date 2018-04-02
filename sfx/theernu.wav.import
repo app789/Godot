@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/theernu.wav-f619f889de82307f426caa60315e6f94.sample"
+
+[deps]
+
+source_file="res://sfx/theernu.wav"
+source_md5="4ef8bc2ca240d9d30f453d86c71abcb4"
+
+dest_files=[ "res://.import/theernu.wav-f619f889de82307f426caa60315e6f94.sample" ]
+dest_md5="f4bc4f7467fad711b1583abb9943923a"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

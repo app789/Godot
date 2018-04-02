@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/Square.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Tiles/png/Tiles/14.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 42.1656, 10 )
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+
+position = Vector2( 312.267, 174.184 )
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+motion = Vector2( 100, 0 )
+cycle = 5.0
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+scale = Vector2( 0.668608, 0.420882 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( -0.732758, -8.42652 )
+shape = SubResource( 1 )
+
+
